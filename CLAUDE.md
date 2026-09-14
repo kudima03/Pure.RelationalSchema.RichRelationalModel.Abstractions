@@ -12,7 +12,7 @@ dotnet build --no-restore -warnaserror
 dotnet format --verify-no-changes        # check code style (CI enforces this)
 csharpier check .                        # check code style (CI enforces this)
 dotnet format && csharpier format .      # auto-fix code style
-dotnet pack --configuration Release -p:PackageVersion=<version> --output .
+dotnet pack --configuration Release -p:Version=<version> --output .
 ```
 
 There are no test projects in this repository — the CI pipeline only builds and checks formatting.
