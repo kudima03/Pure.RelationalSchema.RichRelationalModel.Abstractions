@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+  </Folder>
+  <Project Path="Pure.RelationalSchema.RichRelationalModel.Abstractions/Pure.RelationalSchema.RichRelationalModel.Abstractions.csproj" />
+</Solution>
