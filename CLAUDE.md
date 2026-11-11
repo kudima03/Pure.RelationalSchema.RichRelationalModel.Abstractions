@@ -36,7 +36,7 @@ IForeignKeyRichRelationalModel  : IForeignKey,   IForeignKeyRelationalModel
 
 The purpose is to allow a single concrete type to satisfy both contract families without adapters or casts.
 
-**Multi-targeting:** net7.0, net8.0, net9.0, net10.0. All interfaces must remain AOT-compatible (`IsAotCompatible = true`).
+**Multi-targeting:** net7.0, net8.0, net9.0, net10.0, net11.0. All interfaces must remain AOT-compatible (`IsAotCompatible = true`).
 
 **Package validation:** `EnablePackageValidation = true` with `PackageValidationBaselineVersion = 0.1.0-preview.0.1.0`. Breaking changes fail the build.
 
