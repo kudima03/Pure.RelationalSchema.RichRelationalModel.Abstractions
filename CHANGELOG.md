@@ -6,6 +6,20 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [0.1.0-preview.0.2.0] — 2026-11-11
+
+### Added
+
+- Target framework **net11.0** alongside net7.0, net8.0, net9.0 and net10.0.
+
+### Changed
+
+- Updated `Pure.RelationalSchema.Abstractions` to 1.3.0 and
+  `Pure.RelationalSchema.RelationalModel.Abstractions` to 0.1.0-preview.1.1.0.
+- The NuGet package now includes `README.md`.
+
+---
+
 ## [0.1.0-preview.0.1.0] — 2026-04-30
 
 ### Added
